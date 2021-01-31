@@ -1,0 +1,98 @@
+body {
+    background-color: #556B5B;
+    color: white;
+}
+
+button {
+    height: 75px;
+    border: none;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 780px){
+    .btns {
+        margin-top: 20px !important;
+    }
+
+    .btns:first-of-type {
+        margin-top: 50px !important;
+    }
+
+    #randomizedBoard {
+        margin-left: 0px !important;
+    }
+
+    #randomizedBoard h2 {
+        margin: 7px !important;
+    }
+
+    #randomizedBoard button {
+        height: 80px !important;
+        margin: 7px !important;
+    }
+}
+
+#joinDiv, #nameDiv, #selectDiv, #randomizedBoard, .backButtonDiv {
+    display: none;
+}
+
+#code {
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    border: solid 2px #556B5B;
+    box-shadow: 1px 2px 5px #222222 inset !important;
+}
+
+#code:focus {
+    background-color: transparent;
+}
+
+#randomizedBoard {
+    margin-left: 11vw;
+    /* display: none; */
+}
+
+#randomizedBoard h2 {
+    margin: 10px;
+}
+
+#randomizedBoard button {
+    height: 150px;
+    margin: 10px;
+    box-shadow: 1px 2px 5px #222222  !important;
+    color: white;
+}
+
+#randomizedBoard button:hover {
+    box-shadow: 1px 2px 5px #222222 inset !important;
+    transition-duration: .2s;
+}
+
+.btns {
+    margin-top: 50px;
+}
+
+.btns button {
+    background-color: #556B5B;
+    box-shadow: 1px 2px 5px #222222  !important;
+}
+
+.btns button:hover {
+    background-color: #5AB873;
+    transition-duration: .2s;
+}
+
+.contain {
+    margin-top: 25vh;
+}
+
+  
